@@ -1,0 +1,24 @@
+{
+  "name": "idempotent-worker-guard",
+  "version": "1.0.0",
+  "description": "Deterministic idempotency lock and duplicate payment processing mitigation for asynchronous workers",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/idempotency.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "idempotency",
+    "worker",
+    "payments",
+    "distributed-systems",
+    "concurrency"
+  ],
+  "author": "Felipe Madson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
